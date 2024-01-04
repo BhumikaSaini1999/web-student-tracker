@@ -4,6 +4,7 @@
 <title>Update Student</title>
 <link type="text/css" rel="stylesheet" href="css/style.css">
 <link type="text/css" rel="stylesheet" href="css/add-student-style.css">
+<script type="text/javascript" src="js/student-validation.js"></script>	
 </head>
 <body>
 	<div id="wrapper">
@@ -13,7 +14,7 @@
 	</div>
 	<div id="container">
 		<h3>Update Student</h3>
-		<form action="StudentControllerServlet" method="GET">
+		<form action="StudentControllerServlet" method="GET" name="studentForm" onSubmit="return validateForm()">
 			<input type="hidden" name="command" value="UPDATE" />
 			<input type="hidden" name="studentId" value="${THE_STUDENT.id}"/>
 			<table>
