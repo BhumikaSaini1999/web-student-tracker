@@ -1,6 +1,6 @@
 # web-student-tracker
-This is a basic CRUD Application to create, update, delete, search or list out the students.
-**Technology Used:** JSP, Servlets, JDBC
+This is a basic CRUD Application to create, update, delete, search or list out the students.  
+**Technology Used:** JSP, Servlets, JDBC  
 **Database:** Mysql
 ![image](https://github.com/BhumikaSaini1999/web-student-tracker/assets/106880974/f627ea24-f543-487f-8a10-36420a687982)
 
